@@ -1,0 +1,340 @@
+/* All Common CSS Starts */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+a{
+    text-decoration: none;
+}
+ul,ol{
+    list-style: none;
+}
+/* All Common CSS Ends */
+body{
+    background: #000000;
+    font-family: sans-serif;
+    width: 1200px;
+    margin: 0 auto;
+}
+
+/* Header Part Starts */
+.header{
+    display: flex;
+    padding: 20px 0px;
+}
+.logo{
+    width: 30%;
+    display: flex;
+}
+.logo img{
+    width: 20px;
+    height: 20px;
+}
+.logo h5{
+    color: #fff;
+    font-size: 12px;
+    padding-top: 5px;
+    padding-left: 3px;
+}
+.menubar{
+    padding-left: 300px;
+}
+.menubar ul li{
+    width: 90px;
+    display: inline-block;
+}
+.menubar ul li:last-child{
+    padding: 5px 15px;
+    background: crimson;
+    border-radius: 20px;
+    display: inline;
+}
+.menubar ul li a{
+    padding: 5px 15px;
+    font-size: 15px;
+    color: #ffffff;
+    transition: all linear .5s;
+}
+.menubar ul li a:hover{
+    padding: 5px 15px;
+    background: crimson;
+    border-radius: 20px;
+}
+/* Header Part Ends */
+
+/* Banner Part Starts */
+#banner{
+    padding: 80px 0;
+}
+.banner{
+    display: flex;
+}
+.banner-img{
+    width: 50%;
+}
+.banner-img p{
+    color: antiquewhite;
+    font-size: 12px;
+    padding-left: 180px;
+    line-height: 20px;
+}
+.banner-img p span{
+    font-size: 14px;
+    color: #ffffff;
+}
+.banner-content{
+    width: 50%;
+    color: #ffffff;
+}
+.banner-content h5{
+    font-size: 15px;
+    text-transform: uppercase;
+    font-weight: lighter;
+    padding-bottom: 10px;
+}
+.banner-content h2{
+    font-size: 87px;
+    text-transform: uppercase;
+    font-weight: bold;
+    padding-bottom: 20px;
+}
+.banner-content p{
+    width: 411px;
+    font-size: 16px;
+    color: #DAD8D7;
+    font-weight: 400;
+    line-height: 24px;
+    padding-bottom: 30px;
+}
+.banner-content button{
+    font-size: 16px;
+    color: #DAD8D7;
+    font-weight: 400;
+    padding: 17px 25px;
+    border: 2px solid transparent;
+    border-radius: 5px;
+    background: crimson;
+    cursor: pointer;
+    transition: all linear .3s;
+}
+.banner-content button:hover{
+    background: transparent;
+    border: 2px solid crimson;
+}
+/* Banner Part Ends */
+
+/* Service Part Starts */
+#service{
+    padding: 80px 0;
+}
+.title h3{
+    color: #ffffff;
+    font-size: 36px;
+    font-weight: 400;
+    text-align: center;
+    padding-bottom: 70px;
+    text-transform: capitalize;
+}
+.service{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-left: 40px;
+}
+.service-content{
+    width: 30%;
+    margin-right: 30px;
+    display: inline-block;
+}
+.first-img{
+    padding-left: 90px !important;
+}
+.second-img{
+    padding-top: 30px;
+}
+.service-content img{
+    padding-left: 60px;
+    padding-bottom: 15px;
+}
+.service-content h5{
+    width: 200px;
+    margin: 0 auto;
+    color: #ffffff;
+    font-size: 19px;
+    font-weight: 400;
+    text-transform: capitalize;
+    padding-bottom: 7px;
+    text-align: center;
+}
+.service-content p{
+    width: 200px;
+    margin: 0 auto;
+    color: #DAD8D7;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: center;
+}
+/* Service Part Ends */
+
+/* About Part Starts */
+#about{
+    padding: 80px 0;
+}
+.about .title h3{
+    text-align: left;
+}
+.about{
+    display: flex;
+    padding-left: 70px;
+}
+.about-content{
+    width: 50%;
+}
+.about-img{
+    width: 50%;
+    padding-left: 70px;
+}
+.about-content p{
+    width: 350px;
+    color: #DAD8D7;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    padding-bottom: 80px;
+}
+.about-content a{
+    color: #ffffff;
+    font-size: 16px;
+    font-weight: 400;
+    padding: 17px 25px;
+    border: 2px solid transparent;
+    border-radius: 5px;
+    background: crimson;
+    transition: all linear .3s;
+}
+.about-content a:hover{
+    background: transparent;
+    border: 2px solid crimson;
+}
+/* About Part Ends */
+
+/* Menu Part Starts */
+#menu{
+    padding: 80px 0;
+}
+.menu{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-left: 40px;
+    padding-bottom: 80px;
+}
+.menu-content{
+    padding: 10px;
+    width: 360px;
+    text-align: center;
+    margin-right: 40px;
+    position: relative;
+}
+.new {
+    position: absolute;
+    width: 50px;
+    height: 30px;
+    line-height: 30px;
+    top: -20px;
+    left: 0;
+    background: crimson;
+    border-radius: 4px;
+    font-size: 13px;
+    font-weight: 400;
+    color: #ffffff;
+}
+.cart {
+	position: absolute;
+	width: 40px;
+	height: 40px;
+	line-height: 50px;
+	bottom: -20px;
+	right: 0;
+	background: crimson;
+	border-bottom-right-radius: 15px;
+	cursor: pointer;
+}
+.menu-content h4{
+    color: #ffffff;
+    font-size: 20px;
+    font-weight: 400;
+    padding-top: 15px;
+    padding-bottom: 7px;
+    text-transform: capitalize;
+}
+.menu-content p{
+    color: #DAD8D7;
+    font-size: 12px;
+    font-weight: 400;
+    padding-bottom: 12px;
+    text-transform: capitalize;
+}
+.menu-content h5{
+    color: #ffffff;
+    font-size: 16px;
+    font-weight: 400;
+}
+.menu-content h6{
+    color: crimson;
+    font-size: 13px;
+    font-weight: 400;
+    padding-left: 7px;
+}
+/* Menu Part Ends */
+
+/* Discount Part Starts */
+#discount{
+    padding: 80px 0;
+}
+.discount{
+    display: flex;
+    padding-left: 250px;
+}
+.discount-content{
+    margin: 50px 0 0 200px;
+    text-align: center;
+}
+.discount-content h3{
+    width: 235px;
+    text-align: center;
+    color: #ffffff;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 36px;
+    text-transform: capitalize;
+    padding-bottom: 70px;
+}
+.discount-content a{
+    color: #ffffff;
+    font-size: 16px;
+    font-weight: 400;
+    padding: 17px 25px;
+    border: 2px solid transparent;
+    border-radius: 5px;
+    background: crimson;
+    transition: all linear .3s;
+}
+.discount-content a:hover{
+    background: transparent;
+    border: 2px solid crimson;
+}
+/* Discount Part Ends */
+
+/* New Arrival Part Starts */
+#new-arrival{
+    padding: 80px 0 10px 0;
+}
+.price{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+/* New Arrival Part Ends */
